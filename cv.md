@@ -45,11 +45,6 @@
 > Solid experience in a wholesale and retail business, including project management, brand
 > building, category management, B2B and B2C communications, BA and negotiation.
 >
-> Over the past six months, I have worked as a trainee QA Engineer and actively contributed to successful web projects, including both desktop and mobile versions.2
->
-> As a result, I possess strong core technical skills and uphold high standards of organizational ethics and discipline. I am driven by results and pay meticulous attention to detail. I have a knack for learning quickly, even in high-pressure situations, enabling me to grasp new products, features, or platforms within a short timeframe.
->
-> Drawing from my previous experience, I excel in problem-solving and thrive in collaborative team environments. My objective is to secure a position within a reputable company, where I can leverage my skills and knowledge to consistently deliver outstanding results in the long term. I am eager to contribute to the growth and value of the company's products while simultaneously advancing my own career.
 
 ### SKILLS and PROFICIENCY
 
