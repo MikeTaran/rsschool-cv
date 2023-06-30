@@ -1,15 +1,13 @@
 <div style="float: right">
   <img src="photo.png" alt="Описание картинки" width="150px" />
 </div>
-<center>
 
 # Mykhailo Taran
 
 ## Software Test Engineer
 
-</center>
-
 ---
+
 ### FOLLOW ME
 
 [![Header](https://img.shields.io/badge/Facebook-090909?style=for-the-badge&logo=facebook&logoColor=31a5db)](https://www.facebook.com/mikhail.taran.3)[![Header](https://img.shields.io/badge/Instagram-090909?style=for-the-badge&logo=instagram&logoColor=9939a3)](https://www.instagram.com/bear3xl/)
@@ -76,7 +74,7 @@
 ![Header](https://img.shields.io/badge/Python-090909?style=for-the-badge&logo=Python&logoColor=#ffb42d)
 ![Header](https://img.shields.io/badge/Selenium-090909?style=for-the-badge&logo=Selenium&logoColor=#ffb42d)
 ![Header](https://img.shields.io/badge/Cypress-090909?style=for-the-badge&logo=Cypress&logoColor=#ffb42d)
-
+![Header](https://img.shields.io/badge/Docker-090909?style=for-the-badge&logo=Docker&logoColor=#ffb42d)
 ---
 
 ### CODE EXAMPLE
