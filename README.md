@@ -1,2 +1,2 @@
-[CV- Mike Taran](https://miketaran.github.io/rsschool-cv/cv)
+[CV- Mike Taran](https://miketaran.github.io/rsschool-cv/)
 
