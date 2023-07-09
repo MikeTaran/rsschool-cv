@@ -1,6 +1,285 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
-    font-weight: normal;
+body {
+  margin-top: 100px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f5f7fa;
+}
+.header-nav  {
+  display: flex;
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #09080e;
+  text-decoration: none;
+  z-index: 1000;
+  text-align: center;
+  font-size: 24px;
+  color: #ffffff;
+}
+.header-list{
+  max-width: var(--content-width);
+  margin: 0 auto;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-item {
+  margin-left: 100px;
+  display: inline-block;
+  text-decoration: none;
+  color: var(--text);
+  padding: 1rem 0;
+  position: relative;
+}
+.two-columns {
+  display: flex;
+  flex-direction: row-reverse;
+}
+/* main styles */
+.main {
+  width: 1200px;
+  margin: 0 auto;
+}
+.main-content {
+  background-color: #ffffff;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 25px 50px;
+}
+/* about styles  (ctrl+/)-комменты */
+.about {
+  margin-bottom: 40px;
+}
+.about-position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.about-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+.about-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+/* project styles*/
+.project {
+  margin-bottom: 50px;
+}
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.code-example p {
+  margin-left: 45px;
+}
+
+pre {
+  margin-left: 0px;
+  margin-top: 20px;
+  padding-left: 30px;
+  font-family: monospace;
+  font-size: 0.9rem;
+  background-color: #f5f5f5;
+}
+.project-list {
+  padding: 0;
+  margin-left: 15px;
+}
+.project-item {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+.project,
+.project-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+.project-link {
+  margin-left: 10px;
+}
+.project-bracket {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+/* work styles */
+
+.work-position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.organization {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+}
+.period {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-bottom: 10px;
+}
+.line {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+.work-list {
+  padding: 0;
+  margin-left: 15px;
+}
+.work-list-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+/* education styles */
+.education {
+  margin-top: 45px;
+}
+.educational-institution {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+  margin-bottom: 10px;
+}
+.specialty {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+/* sidebar style  */
+.sidebar {
+  background-color: #1e2939;
+  padding-top: 40px;
+  width: 370px;
+}
+.photo {
+  width: 370px;
+  margin-bottom: 50px;
+}
+.contacts,
+.tech-skills,
+.soft-scills {
+  margin-left: 40px;
+  margin-bottom: 45px;
+}
+.sidebar-title {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 10px;
+}
+.contact-type {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-right: 10px;
+}
+.contact-link {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #8e949c;
+}
+.contacts li p {
+  display: inline;
+  vertical-align: middle;
+}
+.contacts li img {
+  vertical-align: middle;
+  margin-right: 15px;
+  background-color: #f5f7fa;
+}
+.scill-list {
+  color: #ffffff;
+  padding: 0px;
+  margin-left: 15px;
+}
+.li-point {
+  color: #fb6d3a;
+}
+.list-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.language-name {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.language-rank {
+  margin-top: 5px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: 0.8rem;
+  color: #0f0e0e;
+  background-color: var(--dark-gray-color);
+}
+
+footer a {
+  text-decoration: none;
+  color: #141414;
+}
+
+footer .github-icon {
+  margin-right: 10px;
+}
+
+.my-github {
+  display: flex;
+  align-items: center;
 }
