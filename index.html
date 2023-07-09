@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/normalize.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <title>Resume</title>
+  </head>
+  <body>
+    <!--Main-->
+    <div class="main">
+      <div class="two-columns">
+        <nav class="header-nav">
+          <ul class="header-list">
+            <li class="header-item">
+              <a href="#about" class="header-link">About</a>
+            </li>
+            <li class="header-item">
+              <a href="#code" class="header-link">Code</a>
+            </li>
+            <li class="header-item">
+              <a href="#projects" class="header-link">Projects</a>
+            </li>
+            <li class="header-item">
+              <a href="#work-exp" class="header-link">Work experience</a>
+            </li>
+            <li class="header-item">
+              <a href="#education" class="header-link">Education</a>
+            </li>
+          </ul>
+        </nav>
+        <!--Main content-->
+        <div class="main-content">
+          <!--about user-->
+          <div class="about" id="about">
+            <h2 class="about-position">Front-End Developer</h2>
+            <h1 class="about-name">Mykhailo Taran</h1>
+            <p class="about-description">
+              I am a Software Testing Engineer specializing in Functional
+              Testing (manual) as part of Web Application Testing. In addition
+              to my engineering and economics degrees, I have completed various
+              professional development courses.
+            </p>
+            <p class="about-description">
+              In terms of technical skills, I possess a thorough understanding
+              of Testing theory, SDLC and STLC processes, knowledge of test
+              design techniques, understanding of Waterfall and Agile workﬂow,
+              test cases and checklists creation (TestLink, TestRail), Bug
+              reports posting (Jira, MantisBT), familiarity with Chrome
+              DevTools, knowledge of Networking Foundations, API testing with
+              Postman, experience working with Selenium IDE, and Cypress,
+              performance testing with Apache JMeter, experience using Control
+              Version Systems (Git), conﬁdent user with Windows command line and
+              Linux Bash, basic knowledge of HTML, CSS, XML, JSON, SQL(MySQL).
+              Solid experience in a wholesale and retail business, including
+              project management, brand building, category management, B2B and
+              B2C communications, BA and negotiation.
+            </p>
+          </div>
+          <!--Project-->
+          <div class="project" id="code">
+            <h3 class="title">Code example</h3>
+            <p>
+              <strong> The Hashtag Generator from Codewars:</strong> The
+              marketing team is spending way too much time typing in hashtags.
+              Let’s help them with our own Hashtag Generator!
+            </p>
+            <pre>
+            <code>
+              function generateHashtag(str) {
+                function toPascalCase(str) {
+                  return str.replace(/(\w)(\w*)/g, function (_, first, rest) {
+                    return first.toUpperCase() + rest.toLowerCase();
+                  });
+                }
+                str = toPascalCase(str);
+                str = str.replaceAll(" ", "");
+                str = "#" + str;
+                if (str.length > 140) return false;
+                if (str.length === 0 || str == "#") return false;
+                return str;
+                }
+</code>
+          </pre>
+            <h3 class="title" id="projects">Projects</h3>
+            <ol class="project-list">
+              <li class="project-item">
+                <span class="project">
+                  <a href="https://mykhailo-t.netlify.app/" class="project-link"
+                    >https://mykhailo-t.netlify.app/</a
+                  >
+                  ............
+                  <span class="project-bracket">[</span> HTML5, CSS3
+                  <span class="project-bracket">]</span>
+                </span>
+              </li>
+              <li class="project-item">
+                <span class="project">
+                  <a href="https://cryptohub.goit.global/" class="project-link"
+                    >https://cryptohub.goit.global/</a
+                  >
+                  .............
+                  <span class="project-bracket">[</span> JavaScript
+                  <span class="project-bracket">]</span>
+                </span>
+              </li>
+            </ol>
+          </div>
+          <!--Work-->
+          <div class="work" id="work-exp">
+            <h3 class="title">Work Experience</h3>
+            <!--Company1-->
+            <div>
+              <h4 class="work-position">
+                Trainee QA Engineer
+                <span class="organization"> ITX Company</span>
+              </h4>
+              <p class="period">
+                02/2023 - Present <span class="line">|</span> Remote
+              </p>
+              <ul class="work-list">
+                <li class="work-list-item">
+                  Website: [capital.com] (prod Version). Testing web: desktop,
+                  mobile. Creating Test Documentation: -checklists for desktop
+                  application program: smoke, critical, regression; -checklists
+                  for mobile browsers: smoke, critical, regression; - design of
+                  bug reports. Retests, passing daily smokes, regression runs.
+                  Testing: Ad-hoc, research, localization, cross-browser,
+                  cross-platform.
+                </li>
+                <li class="work-list-item">
+                  Website: [currency.com] (prod Version). Testing web: desktop,
+                  mobile. Design of bug reports. Retests, passing regression.
+                  Testing: Ad-hoc, research, localization, cross-browser,
+                  cross-platform.
+                </li>
+                <li class="work-list-item">
+                  Mobile app: [Crypto Price Widgets]{.underline} (prod Version).
+                  Testing a mobile application (iOS, Android). Creating Test
+                  Documentation: -checklists: smoke, critical, regression;
+                  -design of bug reports. Passing regression. Participation in
+                  providing onboarding to customers
+                </li>
+                <li class="work-list-item">
+                  Platforms: Investopedia, FT, Bloomberg. Testing and collecting
+                  statistics of advertising impressions on ﬁnancial platforms
+                  with/without behavioral targeted impressions.
+                </li>
+              </ul>
+            </div>
+            <!--Company2-->
+            <div>
+              <h4 class="work-position">
+                Self-employed entrepreneur
+                <span class="organization">Self-employed</span>
+              </h4>
+              <p class="period">
+                06/2013 - 09/2022 <span class="line">|</span> Ukraine
+              </p>
+              <ul class="work-list">
+                <li class="work-list-item">Outdoor entertainment provider</li>
+              </ul>
+            </div>
+            <!--Company3-->
+            <div>
+              <h4 class="work-position">
+                Middle Manager <span class="organization">METRO/MAKRO</span>
+              </h4>
+              <p class="period">
+                06/2004 - 02/2013 <span class="line">|</span> Ukraine
+              </p>
+              <ul class="work-list">
+                <li class="work-list-item">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </li>
+                <li class="work-list-item">
+                  Leading the wholesale industry through cultural > diversity,
+                  digitalization and sustainability
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!--Education-->
+          <div class="education" id="education">
+            <h3 class="title">Education</h3>
+            <!--Type-->
+            <div>
+              <h4 class="educational-institution">
+                National University of Radioelectronics
+              </h4>
+              <h4 class="specialty">Economics</h4>
+              <p class="period">
+                09/2008 - 06/2010 <span class="line">|</span> Ukraine
+              </p>
+            </div>
+          </div>
+          <div class="courses">
+            <h3 class="title">Courses</h3>
+            <!--Type-->
+            <div>
+              <h4 class="educational-institution">
+                Vadim Ksendzov’s QA course
+              </h4>
+              <h4 class="specialty">QA / AQA</h4>
+              <p class="period">
+                12/2022 - Present <span class="line">|</span> Ukraine
+              </p>
+            </div>
+          </div>
+          <div class="sertificates">
+            <h3 class="title">Sertificates</h3>
+            <!--Type-->
+            <div>
+              <h4 class="educational-institution">
+                The Fundamentals of Software Testing
+              </h4>
+              <h4 class="specialty">QATestLab</h4>
+              <p class="period">
+                10/2022 - 12/2022 <span class="line">|</span> Ukraine
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--sidebar-->
+        <aside class="sidebar">
+          <img src="img/photo.jpg" alt="User Photo" class="photo" />
+          <!--Contacts-->
+          <div class="contacts">
+            <h3 class="sidebar-title">Contacts</h3>
+            <div>
+              <ul class="contact-type">
+                <li>
+                  <img
+                    src="./icons/icons8-phone.svg"
+                    alt="Phone Icon"
+                    width="30"
+                    height="30"
+                  />
+                  <p>+38 (097) 605-05-05</p>
+                </li>
+                <li>
+                  <img
+                    src="./icons/icons8-email.svg"
+                    alt="Email Icon"
+                    width="30"
+                    height="30"
+                  />
+                  <p>mtaran.job@gmail.com</p>
+                </li>
+                <li>
+                  <img
+                    src="./icons/icons8-telegram.svg"
+                    alt="Telegram Icon"
+                    width="30"
+                    height="30"
+                  />
+                  <p>@Mike_Taran</p>
+                </li>
+                <li>
+                  <img
+                    src="./icons/icons8-linkedin.svg"
+                    alt="LinkedIn Icon"
+                    width="30"
+                    height="30"
+                  />
+                  <a href="https://www.linkedin.com/in/miketaran/">LinkedIn</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!--Tech Skills-->
+          <div class="tech-skills">
+            <h3 class="sidebar-title">Tech Skills</h3>
+            <ul class="scill-list">
+              <li class="li-point">
+                <span class="list-item">HTML5, CSS3, JS</span>
+              </li>
+              <li class="li-point">
+                <span class="list-item">TestRail, Jira, Mantis</span>
+              </li>
+              <li class="li-point">
+                <span class="list-item">GIT, GitHub</span>
+              </li>
+              <li class="li-point">
+                <span class="list-item">Postman, JMeter</span>
+              </li>
+              <li class="li-point">
+                <span class="list-item">Charlesproxy, Fiddler</span>
+              </li>
+              <li class="li-point"><span class="list-item">MySQL</span></li>
+              <li class="li-point">
+                <span class="list-item">SeleniumIDE, Cypress</span>
+              </li>
+            </ul>
+          </div>
+          <!--Soft Skills-->
+          <div class="soft-scills">
+            <h3 class="sidebar-title">Soft Skills</h3>
+            <ul class="scill-list">
+              <li class="li-point"><span class="list-item">Scrum</span></li>
+              <li class="li-point"><span class="list-item">Agile</span></li>
+              <li class="li-point"><span class="list-item">GTD</span></li>
+              <li class="li-point"><span class="list-item">Teamwork</span></li>
+            </ul>
+          </div>
+          <!--Lang-->
+          <div class="soft-scills">
+            <h3 class="sidebar-title">Languages</h3>
+            <ul class="scill-list">
+              <li class="li-point">
+                <span class="language-name">English</span>
+                <p class="language-rank">Pre-intermediate</p>
+              </li>
+              
+              <li class="li-point">
+                <span class="language-name">Ukrainian</span>
+                <p class="language-rank">Intermediate</p>
+              </li>
+              
+              <li class="li-point">
+                <span class="language-name">Russian</span>
+                <p class="language-rank">Native</p>
+              </li>
+              
+            </ul>
+          </div>
+          <!--INTERESTS-->
+          <div class="soft-scills">
+            <h3 class="sidebar-title">Interests</h3>
+            <ul class="scill-list">
+              <li class="li-point">
+                <span class="list-item">IT innonations</span>
+              </li>
+              <li class="li-point">
+                <span class="list-item">MMORPG Games</span>
+              </li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+      <footer>
+        <a class="my-github" href="https://github.com/MikeTaran">
+          <img
+            class="github-icon"
+            src="./icons/icons8-github.svg"
+            alt="Github Icon"
+            width="26"
+            height="26"
+          />
+          <p>Visit my GitHub</p>
+        </a>
+        <p>© 2023</p>
+        <a href="https://rs.school/js/">
+          <img
+            src="./icons/logo-rsschool3.png"
+            alt="Rsschool Icon"
+            width="73"
+            height="26"
+          />
+        </a>
+      </footer>
+    </div>
+  </body>
+</html>
