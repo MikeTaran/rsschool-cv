@@ -4,7 +4,7 @@
 
 # Mykhailo Taran
 
-## Software Test Engineer
+## QA Engineer | AQA Selenium
 
 ---
 
